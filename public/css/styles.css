@@ -1,0 +1,21 @@
+p {
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+h4 {
+    color: purple;
+}
+
+p {
+    color: #000000
+}
+
+.img2 {
+    float: right;
+    max-width: 600px;
+    margin-left: 20px;
+}

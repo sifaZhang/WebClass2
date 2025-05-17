@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <%- include('partials/header1.ejs') %>
+</head>
+<body>
+    <%- include('partials/navbar2.ejs') %>
+
+        <div class="container">
+            <h2>Add a MP</h2>
+            <form method="POST" action="/addMPs">
+                <label for="id"><b>ID</b></label>
+                <input type="text" placeholder="Enter MP ID" name="id" id="id" required>
+
+                <label for="name"><b>Name</b></label>
+                <input type="text" placeholder="Enter MP name" name="name" id="name" required>
+
+                <label for="party"><b>Party</b></label>
+                <input type="text" placeholder="Enter party name" name="party" id="party" required>
+
+                <button type="submit">Submit</button>
+        </div>
+
+</body>
+
+</html>
